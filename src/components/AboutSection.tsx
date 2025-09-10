@@ -6,8 +6,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-primary mb-12">About Tim</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
+              I'm a Charleswood resident, a husband, father, educator, and musician, with experience as a roofing contractor and high school basketball coach.
+            </p>
+            <p>
               I've spent my career teaching mathematics at Canadian Mennonite University, 
-              where I help students think critically, work collaboratively, and find joy in learning.
+              where I guide students to think critically, work collaboratively, and pursue their passions for making the world a better place.
             </p>
             <p>
               I believe education is a sacred trust. Our schools are the heart of our community — 

@@ -1,4 +1,4 @@
-import timHeadshot from '@/assets/tim-rogalsky-headshot.jpg';
+import timHeadshot from '/lovable-uploads/1278f1d0-8224-433e-beb4-49bf79a49ebb.png';
 
 const HeroSection = () => {
   return (
@@ -11,10 +11,10 @@ const HeroSection = () => {
                 Tim Rogalsky
               </h1>
               <h2 className="text-2xl lg:text-3xl text-foreground mb-6">
-                Candidate for School Trustee – Pembina Trails School Division
+                Candidate for School Trustee – Pembina Trails School Division (Ward 1)
               </h2>
               <div className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded-lg text-xl font-semibold">
-                "Strong Schools, Strong Communities"
+                "Strong Schools, Strong Futures"
               </div>
             </div>
             <div className="flex justify-center lg:justify-end">
