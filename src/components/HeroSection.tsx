@@ -1,4 +1,4 @@
-import timHeadshot from '/lovable-uploads/1278f1d0-8224-433e-beb4-49bf79a49ebb.png';
+import timHeadshot from '../assets/tim-rogalsky-headshot.jpg';
 
 const HeroSection = () => {
   return (
