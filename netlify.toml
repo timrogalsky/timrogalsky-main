@@ -1,3 +1,9 @@
+[[redirects]]
+from = "/proxy-test"
+to   = "https://tim-for-trustee.netlify.app/"
+status = 200
+force = true
+
 # --- Force HTTPS for everything ---
 [[redirects]]
 from = "http://*"
