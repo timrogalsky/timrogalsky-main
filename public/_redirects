@@ -1,3 +1,5 @@
+http://*  https://:splat  301!
+
 /tim-for-trustee/*  https://mellow-cat-6c871a.netlify.app/:splat  200!
 /tim-for-trustee    https://mellow-cat-6c871a.netlify.app/       200!
 
