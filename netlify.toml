@@ -1,0 +1,19 @@
+# Force HTTPS (edge)
+[[redirects]]
+from = "http://*"
+to   = "https://:splat"
+status = 301
+force = true
+
+# Proxy the trustee app
+[[redirects]]
+from = "/tim-for-trustee"
+to   = "https://tim-for-trustee.netlify.app/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/tim-for-trustee/*"
+to   = "https://tim-for-trustee.netlify.app/:splat"
+status = 200
+force = true
