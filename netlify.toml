@@ -1,19 +1,31 @@
-# Force HTTPS (edge)
+# --- Force HTTPS for everything ---
 [[redirects]]
 from = "http://*"
 to   = "https://:splat"
 status = 301
 force = true
 
-# Proxy the trustee app
+# --- Trustee proxy (TOP, takes precedence) ---
+[[redirects]]
+from = "/tim-for-trustee/*"
+to   = "https://tim-for-trustee.netlify.app/:splat"
+status = 200
+force = true
+
 [[redirects]]
 from = "/tim-for-trustee"
 to   = "https://tim-for-trustee.netlify.app/"
 status = 200
 force = true
 
+# --- Your local thank-you page ---
 [[redirects]]
-from = "/tim-for-trustee/*"
-to   = "https://tim-for-trustee.netlify.app/:splat"
+from = "/thank-you"
+to   = "/thank-you.html"
 status = 200
-force = true
+
+# --- SPA fallback for the main site ---
+[[redirects]]
+from = "/*"
+to   = "/index.html"
+status = 200
